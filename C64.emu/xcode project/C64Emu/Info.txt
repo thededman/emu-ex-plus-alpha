@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>CFBundleName</key>
+	<string>C64Emu</string>
+	
+	<key>CFBundleIdentifier</key>
+	<string>com.explusalpha.C64Emu</string>
+	
+	<key>CFBundleExecutable</key>
+	<string>c64emu</string>
+	
+	<key>CFBundleDisplayName</key>
+	<string>C64.emu</string>
+	
+	<key>CFBundleVersion</key>
+	<string>2</string>
+
+	<key>CFBundleShortVersionString</key>
+	<string>1.5.26</string>
+
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleBlackOpaque</string>
+
+<!--
+	Common app keys
+-->
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+
+	<key>CFBundleIconFile</key>
+	<string>icon-57.png</string>
+
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+
+	<key>MinimumOSVersion</key>
+	<string>4.0</string>
+
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>icon-57.png</string>
+		<string>icon-72.png</string>
+		<string>icon-114.png</string>
+	</array>
+	
+	<key>UILaunchStoryboardName</key>
+	<string>Launch</string>
+
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	
+	<key>UIStatusBarHidden</key>
+	<true/>
+
+	<key>CFBundleSignature</key>
+	<string>????</string>
+
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+
+
+	</dict>
+</plist>

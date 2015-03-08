@@ -1,0 +1,6 @@
+in lowp vec2 texUVOut;
+
+void main()
+{
+	OUT_FRAGCOLOR(texture(TEX, texUVOut));
+}

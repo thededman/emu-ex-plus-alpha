@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63113E4719E18354006580BD /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 63113E4319E18354006580BD /* icon-57.png */; };
+		63113E4819E18354006580BD /* overlays64.png in Resources */ = {isa = PBXBuildFile; fileRef = 63113E4419E18354006580BD /* overlays64.png */; };
+		6347175F19041726003F930F /* accept.png in Resources */ = {isa = PBXBuildFile; fileRef = 6347174E19041726003F930F /* accept.png */; };
+		6347176019041726003F930F /* fastForward.png in Resources */ = {isa = PBXBuildFile; fileRef = 6347174F19041726003F930F /* fastForward.png */; };
+		6347176119041726003F930F /* game.png in Resources */ = {isa = PBXBuildFile; fileRef = 6347175019041726003F930F /* game.png */; };
+		6347176419041726003F930F /* icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 6347175319041726003F930F /* icon-48.png */; };
+		6347176519041726003F930F /* icon-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 6347175419041726003F930F /* icon-64.png */; };
+		6347176619041726003F930F /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 6347175519041726003F930F /* icon-72.png */; };
+		6347176719041726003F930F /* icon-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 6347175619041726003F930F /* icon-96.png */; };
+		6347176819041726003F930F /* icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 6347175719041726003F930F /* icon-144.png */; };
+		6347176919041726003F930F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6347175819041726003F930F /* Info.plist */; };
+		6347176A19041726003F930F /* Info.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6347175919041726003F930F /* Info.txt */; };
+		6347176B19041726003F930F /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 6347175A19041726003F930F /* menu.png */; };
+		6347176C19041726003F930F /* navArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6347175B19041726003F930F /* navArrow.png */; };
+		6347176D19041726003F930F /* nesemu in Resources */ = {isa = PBXBuildFile; fileRef = 6347175C19041726003F930F /* nesemu */; };
+		6347176E19041726003F930F /* overlays128.png in Resources */ = {isa = PBXBuildFile; fileRef = 6347175D19041726003F930F /* overlays128.png */; };
+		6347176F19041726003F930F /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6347175E19041726003F930F /* x.png */; };
+		6359DD211A98303B00798CB2 /* shaders in Resources */ = {isa = PBXBuildFile; fileRef = 6359DD201A98303B00798CB2 /* shaders */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63113E4319E18354006580BD /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = "<group>"; };
+		63113E4419E18354006580BD /* overlays64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlays64.png; sourceTree = "<group>"; };
+		6347171C190415BC003F930F /* NESemu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NESemu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6347174E19041726003F930F /* accept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accept.png; sourceTree = "<group>"; };
+		6347174F19041726003F930F /* fastForward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fastForward.png; sourceTree = "<group>"; };
+		6347175019041726003F930F /* game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game.png; sourceTree = "<group>"; };
+		6347175319041726003F930F /* icon-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-48.png"; sourceTree = "<group>"; };
+		6347175419041726003F930F /* icon-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-64.png"; sourceTree = "<group>"; };
+		6347175519041726003F930F /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		6347175619041726003F930F /* icon-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-96.png"; sourceTree = "<group>"; };
+		6347175719041726003F930F /* icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-144.png"; sourceTree = "<group>"; };
+		6347175819041726003F930F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Info.plist; sourceTree = "<group>"; };
+		6347175919041726003F930F /* Info.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Info.txt; sourceTree = "<group>"; };
+		6347175A19041726003F930F /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		6347175B19041726003F930F /* navArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navArrow.png; sourceTree = "<group>"; };
+		6347175C19041726003F930F /* nesemu */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = nesemu; sourceTree = "<group>"; };
+		6347175D19041726003F930F /* overlays128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlays128.png; sourceTree = "<group>"; };
+		6347175E19041726003F930F /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		6359DD201A98303B00798CB2 /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shaders; sourceTree = "<group>"; };
+		63F226D019BD3A720003D246 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63F226D219BD3A720003D246 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63F226D419BD3A720003D246 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63F226E919BD3A720003D246 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63471719190415BC003F930F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63471713190415BC003F930F = {
+			isa = PBXGroup;
+			children = (
+				63471725190415BC003F930F /* NESemu */,
+				63F226CF19BD3A720003D246 /* Frameworks */,
+				6347171D190415BC003F930F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6347171D190415BC003F930F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6347171C190415BC003F930F /* NESemu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63471725190415BC003F930F /* NESemu */ = {
+			isa = PBXGroup;
+			children = (
+				63471726190415BC003F930F /* Supporting Files */,
+			);
+			path = NESemu;
+			sourceTree = "<group>";
+		};
+		63471726190415BC003F930F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6359DD201A98303B00798CB2 /* shaders */,
+				63113E4319E18354006580BD /* icon-57.png */,
+				63113E4419E18354006580BD /* overlays64.png */,
+				6347174E19041726003F930F /* accept.png */,
+				6347174F19041726003F930F /* fastForward.png */,
+				6347175019041726003F930F /* game.png */,
+				6347175319041726003F930F /* icon-48.png */,
+				6347175419041726003F930F /* icon-64.png */,
+				6347175519041726003F930F /* icon-72.png */,
+				6347175619041726003F930F /* icon-96.png */,
+				6347175719041726003F930F /* icon-144.png */,
+				6347175819041726003F930F /* Info.plist */,
+				6347175919041726003F930F /* Info.txt */,
+				6347175A19041726003F930F /* menu.png */,
+				6347175B19041726003F930F /* navArrow.png */,
+				6347175C19041726003F930F /* nesemu */,
+				6347175D19041726003F930F /* overlays128.png */,
+				6347175E19041726003F930F /* x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63F226CF19BD3A720003D246 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63F226D019BD3A720003D246 /* Foundation.framework */,
+				63F226D219BD3A720003D246 /* CoreGraphics.framework */,
+				63F226D419BD3A720003D246 /* UIKit.framework */,
+				63F226E919BD3A720003D246 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6347171B190415BC003F930F /* NESemu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63471748190415BD003F930F /* Build configuration list for PBXNativeTarget "NESemu" */;
+			buildPhases = (
+				63471718190415BC003F930F /* Sources */,
+				63471719190415BC003F930F /* Frameworks */,
+				6347171A190415BC003F930F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NESemu;
+			productName = NESemu;
+			productReference = 6347171C190415BC003F930F /* NESemu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63471714190415BC003F930F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.explusalpha.NesEmu;
+				TargetAttributes = {
+					6347171B190415BC003F930F = {
+						DevelopmentTeam = RHW36PEY7H;
+					};
+				};
+			};
+			buildConfigurationList = 63471717190415BC003F930F /* Build configuration list for PBXProject "NESemu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63471713190415BC003F930F;
+			productRefGroup = 6347171D190415BC003F930F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6347171B190415BC003F930F /* NESemu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6347171A190415BC003F930F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6347176D19041726003F930F /* nesemu in Resources */,
+				6347175F19041726003F930F /* accept.png in Resources */,
+				6347176E19041726003F930F /* overlays128.png in Resources */,
+				6347176019041726003F930F /* fastForward.png in Resources */,
+				6347176F19041726003F930F /* x.png in Resources */,
+				6347176A19041726003F930F /* Info.txt in Resources */,
+				6347176B19041726003F930F /* menu.png in Resources */,
+				6347176419041726003F930F /* icon-48.png in Resources */,
+				63113E4719E18354006580BD /* icon-57.png in Resources */,
+				63113E4819E18354006580BD /* overlays64.png in Resources */,
+				6347176819041726003F930F /* icon-144.png in Resources */,
+				6347176C19041726003F930F /* navArrow.png in Resources */,
+				6347176119041726003F930F /* game.png in Resources */,
+				6347176719041726003F930F /* icon-96.png in Resources */,
+				6347176619041726003F930F /* icon-72.png in Resources */,
+				6359DD211A98303B00798CB2 /* shaders in Resources */,
+				6347176919041726003F930F /* Info.plist in Resources */,
+				6347176519041726003F930F /* icon-64.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63471718190415BC003F930F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63471746190415BD003F930F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63471747190415BD003F930F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63471749190415BD003F930F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NESemu/NESemu-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/NESemu/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6347174A190415BD003F930F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NESemu/NESemu-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/NESemu/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63471717190415BC003F930F /* Build configuration list for PBXProject "NESemu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63471746190415BD003F930F /* Debug */,
+				63471747190415BD003F930F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63471748190415BD003F930F /* Build configuration list for PBXNativeTarget "NESemu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63471749190415BD003F930F /* Debug */,
+				6347174A190415BD003F930F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63471714190415BC003F930F /* Project object */;
+}

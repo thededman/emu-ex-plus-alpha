@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../..
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: EmuFramework
+Description: Emulator App Framework
+Version: 1.5.21
+Requires: imagine 
+Libs: -L${libdir} -lemuframework 
+Cflags:  -I${includedir}

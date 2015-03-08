@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6366217B191EFE0B0079DAF0 /* accept.png in Resources */ = {isa = PBXBuildFile; fileRef = 6366216D191EFE0B0079DAF0 /* accept.png */; };
+		6366217C191EFE0B0079DAF0 /* fastForward.png in Resources */ = {isa = PBXBuildFile; fileRef = 6366216E191EFE0B0079DAF0 /* fastForward.png */; };
+		6366217D191EFE0B0079DAF0 /* game.png in Resources */ = {isa = PBXBuildFile; fileRef = 6366216F191EFE0B0079DAF0 /* game.png */; };
+		63662180191EFE0B0079DAF0 /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 63662172191EFE0B0079DAF0 /* icon-57.png */; };
+		63662181191EFE0B0079DAF0 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 63662173191EFE0B0079DAF0 /* icon-72.png */; };
+		63662182191EFE0B0079DAF0 /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 63662174191EFE0B0079DAF0 /* icon-114.png */; };
+		63662183191EFE0B0079DAF0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63662175191EFE0B0079DAF0 /* Info.plist */; };
+		63662184191EFE0B0079DAF0 /* Info.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63662176191EFE0B0079DAF0 /* Info.txt */; };
+		63662185191EFE0B0079DAF0 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 63662177191EFE0B0079DAF0 /* menu.png */; };
+		63662186191EFE0B0079DAF0 /* navArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 63662178191EFE0B0079DAF0 /* navArrow.png */; };
+		63662187191EFE0B0079DAF0 /* pceemu in Resources */ = {isa = PBXBuildFile; fileRef = 63662179191EFE0B0079DAF0 /* pceemu */; };
+		63662188191EFE0B0079DAF0 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6366217A191EFE0B0079DAF0 /* x.png */; };
+		63F8C0D11AABDC81002A4C40 /* shaders in Resources */ = {isa = PBXBuildFile; fileRef = 63F8C0D01AABDC81002A4C40 /* shaders */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6366215B191EFCF80079DAF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63662133191EFCF80079DAF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6366213A191EFCF80079DAF0;
+			remoteInfo = PCEEmu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6366213B191EFCF80079DAF0 /* PCEEmu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCEEmu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63662156191EFCF80079DAF0 /* PCEEmuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCEEmuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6366216D191EFE0B0079DAF0 /* accept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = accept.png; path = PCEEmu/accept.png; sourceTree = "<group>"; };
+		6366216E191EFE0B0079DAF0 /* fastForward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fastForward.png; path = PCEEmu/fastForward.png; sourceTree = "<group>"; };
+		6366216F191EFE0B0079DAF0 /* game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = game.png; path = PCEEmu/game.png; sourceTree = "<group>"; };
+		63662172191EFE0B0079DAF0 /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-57.png"; path = "PCEEmu/icon-57.png"; sourceTree = "<group>"; };
+		63662173191EFE0B0079DAF0 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "PCEEmu/icon-72.png"; sourceTree = "<group>"; };
+		63662174191EFE0B0079DAF0 /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-114.png"; path = "PCEEmu/icon-114.png"; sourceTree = "<group>"; };
+		63662175191EFE0B0079DAF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Info.plist; path = PCEEmu/Info.plist; sourceTree = "<group>"; };
+		63662176191EFE0B0079DAF0 /* Info.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Info.txt; path = PCEEmu/Info.txt; sourceTree = "<group>"; };
+		63662177191EFE0B0079DAF0 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = PCEEmu/menu.png; sourceTree = "<group>"; };
+		63662178191EFE0B0079DAF0 /* navArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navArrow.png; path = PCEEmu/navArrow.png; sourceTree = "<group>"; };
+		63662179191EFE0B0079DAF0 /* pceemu */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = pceemu; path = PCEEmu/pceemu; sourceTree = "<group>"; };
+		6366217A191EFE0B0079DAF0 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x.png; path = PCEEmu/x.png; sourceTree = "<group>"; };
+		63F8C0D01AABDC81002A4C40 /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shaders; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63662138191EFCF80079DAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63662153191EFCF80079DAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63662132191EFCF80079DAF0 = {
+			isa = PBXGroup;
+			children = (
+				63662144191EFCF80079DAF0 /* PCEEmu */,
+				6366216D191EFE0B0079DAF0 /* accept.png */,
+				6366216E191EFE0B0079DAF0 /* fastForward.png */,
+				6366216F191EFE0B0079DAF0 /* game.png */,
+				63662172191EFE0B0079DAF0 /* icon-57.png */,
+				63662173191EFE0B0079DAF0 /* icon-72.png */,
+				63662174191EFE0B0079DAF0 /* icon-114.png */,
+				63662175191EFE0B0079DAF0 /* Info.plist */,
+				63662176191EFE0B0079DAF0 /* Info.txt */,
+				63662177191EFE0B0079DAF0 /* menu.png */,
+				63662178191EFE0B0079DAF0 /* navArrow.png */,
+				63662179191EFE0B0079DAF0 /* pceemu */,
+				6366217A191EFE0B0079DAF0 /* x.png */,
+				6366213C191EFCF80079DAF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6366213C191EFCF80079DAF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6366213B191EFCF80079DAF0 /* PCEEmu.app */,
+				63662156191EFCF80079DAF0 /* PCEEmuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63662144191EFCF80079DAF0 /* PCEEmu */ = {
+			isa = PBXGroup;
+			children = (
+				63F8C0D01AABDC81002A4C40 /* shaders */,
+			);
+			path = PCEEmu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6366213A191EFCF80079DAF0 /* PCEEmu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63662167191EFCF80079DAF0 /* Build configuration list for PBXNativeTarget "PCEEmu" */;
+			buildPhases = (
+				63662137191EFCF80079DAF0 /* Sources */,
+				63662138191EFCF80079DAF0 /* Frameworks */,
+				63662139191EFCF80079DAF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PCEEmu;
+			productName = PCEEmu;
+			productReference = 6366213B191EFCF80079DAF0 /* PCEEmu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63662155191EFCF80079DAF0 /* PCEEmuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6366216A191EFCF80079DAF0 /* Build configuration list for PBXNativeTarget "PCEEmuTests" */;
+			buildPhases = (
+				63662152191EFCF80079DAF0 /* Sources */,
+				63662153191EFCF80079DAF0 /* Frameworks */,
+				63662154191EFCF80079DAF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6366215C191EFCF80079DAF0 /* PBXTargetDependency */,
+			);
+			name = PCEEmuTests;
+			productName = PCEEmuTests;
+			productReference = 63662156191EFCF80079DAF0 /* PCEEmuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63662133191EFCF80079DAF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.explusalpha.PCEemu;
+				TargetAttributes = {
+					63662155191EFCF80079DAF0 = {
+						TestTargetID = 6366213A191EFCF80079DAF0;
+					};
+				};
+			};
+			buildConfigurationList = 63662136191EFCF80079DAF0 /* Build configuration list for PBXProject "PCEEmu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63662132191EFCF80079DAF0;
+			productRefGroup = 6366213C191EFCF80079DAF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6366213A191EFCF80079DAF0 /* PCEEmu */,
+				63662155191EFCF80079DAF0 /* PCEEmuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63662139191EFCF80079DAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63662187191EFE0B0079DAF0 /* pceemu in Resources */,
+				63662184191EFE0B0079DAF0 /* Info.txt in Resources */,
+				63662188191EFE0B0079DAF0 /* x.png in Resources */,
+				6366217B191EFE0B0079DAF0 /* accept.png in Resources */,
+				63662181191EFE0B0079DAF0 /* icon-72.png in Resources */,
+				63662183191EFE0B0079DAF0 /* Info.plist in Resources */,
+				6366217C191EFE0B0079DAF0 /* fastForward.png in Resources */,
+				63662182191EFE0B0079DAF0 /* icon-114.png in Resources */,
+				63662180191EFE0B0079DAF0 /* icon-57.png in Resources */,
+				63662186191EFE0B0079DAF0 /* navArrow.png in Resources */,
+				63F8C0D11AABDC81002A4C40 /* shaders in Resources */,
+				63662185191EFE0B0079DAF0 /* menu.png in Resources */,
+				6366217D191EFE0B0079DAF0 /* game.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63662154191EFCF80079DAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63662137191EFCF80079DAF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63662152191EFCF80079DAF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6366215C191EFCF80079DAF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6366213A191EFCF80079DAF0 /* PCEEmu */;
+			targetProxy = 6366215B191EFCF80079DAF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63662165191EFCF80079DAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63662166191EFCF80079DAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63662168191EFCF80079DAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCEEmu/PCEEmu-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/PCEEmu/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63662169191EFCF80079DAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCEEmu/PCEEmu-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/PCEEmu/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6366216B191EFCF80079DAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PCEEmu.app/PCEEmu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCEEmu/PCEEmu-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PCEEmuTests/PCEEmuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6366216C191EFCF80079DAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PCEEmu.app/PCEEmu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCEEmu/PCEEmu-Prefix.pch";
+				INFOPLIST_FILE = "PCEEmuTests/PCEEmuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63662136191EFCF80079DAF0 /* Build configuration list for PBXProject "PCEEmu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63662165191EFCF80079DAF0 /* Debug */,
+				63662166191EFCF80079DAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63662167191EFCF80079DAF0 /* Build configuration list for PBXNativeTarget "PCEEmu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63662168191EFCF80079DAF0 /* Debug */,
+				63662169191EFCF80079DAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6366216A191EFCF80079DAF0 /* Build configuration list for PBXNativeTarget "PCEEmuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6366216B191EFCF80079DAF0 /* Debug */,
+				6366216C191EFCF80079DAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63662133191EFCF80079DAF0 /* Project object */;
+}

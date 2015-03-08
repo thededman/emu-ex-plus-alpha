@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>NESemu.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>SaturnEmu.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6347171B190415BC003F930F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>63471736190415BC003F930F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>63F226CD19BD3A720003D246</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>63F226E719BD3A720003D246</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

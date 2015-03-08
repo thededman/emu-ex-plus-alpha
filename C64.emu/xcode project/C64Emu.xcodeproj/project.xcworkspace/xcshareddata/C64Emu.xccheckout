@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D0C192D5-9E9F-48C8-8F84-F0533BE75D82</string>
+	<key>IDESourceControlProjectName</key>
+	<string>C64Emu</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>05C44182E1BF170E7FF423D5394F5A9AF3CB8A7E</key>
+		<string>https://github.com/thededman/C64Emu-copy.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>C64Emu.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>05C44182E1BF170E7FF423D5394F5A9AF3CB8A7E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/thededman/C64Emu-copy.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>05C44182E1BF170E7FF423D5394F5A9AF3CB8A7E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>05C44182E1BF170E7FF423D5394F5A9AF3CB8A7E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>C64.Emu</string>
+		</dict>
+	</array>
+</dict>
+</plist>

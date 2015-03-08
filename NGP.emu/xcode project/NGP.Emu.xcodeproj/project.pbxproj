@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		634C0BB61AABD93D0088A14E /* shaders in Resources */ = {isa = PBXBuildFile; fileRef = 634C0BB51AABD93D0088A14E /* shaders */; };
+		63BC1CD1191EFC600073185B /* accept.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC1CC2191EFC600073185B /* accept.png */; };
+		63BC1CD2191EFC600073185B /* fastForward.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC1CC3191EFC600073185B /* fastForward.png */; };
+		63BC1CD3191EFC600073185B /* game.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC1CC4191EFC600073185B /* game.png */; };
+		63BC1CD6191EFC600073185B /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC1CC7191EFC600073185B /* icon-57.png */; };
+		63BC1CD7191EFC600073185B /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC1CC8191EFC600073185B /* icon-72.png */; };
+		63BC1CD8191EFC600073185B /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC1CC9191EFC600073185B /* icon-114.png */; };
+		63BC1CD9191EFC600073185B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63BC1CCA191EFC600073185B /* Info.plist */; };
+		63BC1CDA191EFC600073185B /* Info.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63BC1CCB191EFC600073185B /* Info.txt */; };
+		63BC1CDB191EFC600073185B /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC1CCC191EFC600073185B /* menu.png */; };
+		63BC1CDC191EFC600073185B /* navArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC1CCD191EFC600073185B /* navArrow.png */; };
+		63BC1CDD191EFC600073185B /* ngpemu in Resources */ = {isa = PBXBuildFile; fileRef = 63BC1CCE191EFC600073185B /* ngpemu */; };
+		63BC1CDE191EFC600073185B /* overlays128.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC1CCF191EFC600073185B /* overlays128.png */; };
+		63BC1CDF191EFC600073185B /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC1CD0191EFC600073185B /* x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63BC1CB0191EFB580073185B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63BC1C88191EFB580073185B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63BC1C8F191EFB580073185B;
+			remoteInfo = NGP.Emu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		634C0BB51AABD93D0088A14E /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shaders; sourceTree = "<group>"; };
+		63BC1C90191EFB580073185B /* NGP.Emu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NGP.Emu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BC1CAB191EFB580073185B /* NGP.EmuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NGP.EmuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BC1CC2191EFC600073185B /* accept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accept.png; sourceTree = "<group>"; };
+		63BC1CC3191EFC600073185B /* fastForward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fastForward.png; sourceTree = "<group>"; };
+		63BC1CC4191EFC600073185B /* game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game.png; sourceTree = "<group>"; };
+		63BC1CC7191EFC600073185B /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = "<group>"; };
+		63BC1CC8191EFC600073185B /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		63BC1CC9191EFC600073185B /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114.png"; sourceTree = "<group>"; };
+		63BC1CCA191EFC600073185B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Info.plist; sourceTree = "<group>"; };
+		63BC1CCB191EFC600073185B /* Info.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Info.txt; sourceTree = "<group>"; };
+		63BC1CCC191EFC600073185B /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		63BC1CCD191EFC600073185B /* navArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navArrow.png; sourceTree = "<group>"; };
+		63BC1CCE191EFC600073185B /* ngpemu */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ngpemu; sourceTree = "<group>"; };
+		63BC1CCF191EFC600073185B /* overlays128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlays128.png; sourceTree = "<group>"; };
+		63BC1CD0191EFC600073185B /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63BC1C8D191EFB580073185B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BC1CA8191EFB580073185B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63BC1C87191EFB580073185B = {
+			isa = PBXGroup;
+			children = (
+				63BC1C99191EFB580073185B /* NGP.Emu */,
+				63BC1C91191EFB580073185B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63BC1C91191EFB580073185B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63BC1C90191EFB580073185B /* NGP.Emu.app */,
+				63BC1CAB191EFB580073185B /* NGP.EmuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63BC1C99191EFB580073185B /* NGP.Emu */ = {
+			isa = PBXGroup;
+			children = (
+				634C0BB51AABD93D0088A14E /* shaders */,
+				63BC1CC2191EFC600073185B /* accept.png */,
+				63BC1CC3191EFC600073185B /* fastForward.png */,
+				63BC1CC4191EFC600073185B /* game.png */,
+				63BC1CC7191EFC600073185B /* icon-57.png */,
+				63BC1CC8191EFC600073185B /* icon-72.png */,
+				63BC1CC9191EFC600073185B /* icon-114.png */,
+				63BC1CCA191EFC600073185B /* Info.plist */,
+				63BC1CCB191EFC600073185B /* Info.txt */,
+				63BC1CCC191EFC600073185B /* menu.png */,
+				63BC1CCD191EFC600073185B /* navArrow.png */,
+				63BC1CCE191EFC600073185B /* ngpemu */,
+				63BC1CCF191EFC600073185B /* overlays128.png */,
+				63BC1CD0191EFC600073185B /* x.png */,
+			);
+			path = NGP.Emu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63BC1C8F191EFB580073185B /* NGP.Emu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63BC1CBC191EFB580073185B /* Build configuration list for PBXNativeTarget "NGP.Emu" */;
+			buildPhases = (
+				63BC1C8C191EFB580073185B /* Sources */,
+				63BC1C8D191EFB580073185B /* Frameworks */,
+				63BC1C8E191EFB580073185B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NGP.Emu;
+			productName = NGP.Emu;
+			productReference = 63BC1C90191EFB580073185B /* NGP.Emu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63BC1CAA191EFB580073185B /* NGP.EmuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63BC1CBF191EFB580073185B /* Build configuration list for PBXNativeTarget "NGP.EmuTests" */;
+			buildPhases = (
+				63BC1CA7191EFB580073185B /* Sources */,
+				63BC1CA8191EFB580073185B /* Frameworks */,
+				63BC1CA9191EFB580073185B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63BC1CB1191EFB580073185B /* PBXTargetDependency */,
+			);
+			name = NGP.EmuTests;
+			productName = NGP.EmuTests;
+			productReference = 63BC1CAB191EFB580073185B /* NGP.EmuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63BC1C88191EFB580073185B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.explusalpha.NEOemu;
+				TargetAttributes = {
+					63BC1CAA191EFB580073185B = {
+						TestTargetID = 63BC1C8F191EFB580073185B;
+					};
+				};
+			};
+			buildConfigurationList = 63BC1C8B191EFB580073185B /* Build configuration list for PBXProject "NGP.Emu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63BC1C87191EFB580073185B;
+			productRefGroup = 63BC1C91191EFB580073185B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63BC1C8F191EFB580073185B /* NGP.Emu */,
+				63BC1CAA191EFB580073185B /* NGP.EmuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63BC1C8E191EFB580073185B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BC1CDD191EFC600073185B /* ngpemu in Resources */,
+				63BC1CDA191EFC600073185B /* Info.txt in Resources */,
+				63BC1CD1191EFC600073185B /* accept.png in Resources */,
+				63BC1CD7191EFC600073185B /* icon-72.png in Resources */,
+				63BC1CDE191EFC600073185B /* overlays128.png in Resources */,
+				63BC1CD9191EFC600073185B /* Info.plist in Resources */,
+				63BC1CD2191EFC600073185B /* fastForward.png in Resources */,
+				634C0BB61AABD93D0088A14E /* shaders in Resources */,
+				63BC1CD8191EFC600073185B /* icon-114.png in Resources */,
+				63BC1CD6191EFC600073185B /* icon-57.png in Resources */,
+				63BC1CDC191EFC600073185B /* navArrow.png in Resources */,
+				63BC1CDB191EFC600073185B /* menu.png in Resources */,
+				63BC1CDF191EFC600073185B /* x.png in Resources */,
+				63BC1CD3191EFC600073185B /* game.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BC1CA9191EFB580073185B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63BC1C8C191EFB580073185B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BC1CA7191EFB580073185B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63BC1CB1191EFB580073185B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63BC1C8F191EFB580073185B /* NGP.Emu */;
+			targetProxy = 63BC1CB0191EFB580073185B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63BC1CBA191EFB580073185B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63BC1CBB191EFB580073185B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63BC1CBD191EFB580073185B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NGP.Emu/NGP.Emu-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/NGP.Emu/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63BC1CBE191EFB580073185B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NGP.Emu/NGP.Emu-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/NGP.Emu/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		63BC1CC0191EFB580073185B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NGP.Emu.app/NGP.Emu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NGP.Emu/NGP.Emu-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NGP.EmuTests/NGP.EmuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		63BC1CC1191EFB580073185B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NGP.Emu.app/NGP.Emu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NGP.Emu/NGP.Emu-Prefix.pch";
+				INFOPLIST_FILE = "NGP.EmuTests/NGP.EmuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63BC1C8B191EFB580073185B /* Build configuration list for PBXProject "NGP.Emu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BC1CBA191EFB580073185B /* Debug */,
+				63BC1CBB191EFB580073185B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63BC1CBC191EFB580073185B /* Build configuration list for PBXNativeTarget "NGP.Emu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BC1CBD191EFB580073185B /* Debug */,
+				63BC1CBE191EFB580073185B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63BC1CBF191EFB580073185B /* Build configuration list for PBXNativeTarget "NGP.EmuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BC1CC0191EFB580073185B /* Debug */,
+				63BC1CC1191EFB580073185B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63BC1C88191EFB580073185B /* Project object */;
+}

@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		634C0BB91AABD9CD0088A14E /* shaders in Resources */ = {isa = PBXBuildFile; fileRef = 634C0BB81AABD9CD0088A14E /* shaders */; };
+		634C0BC41AABDA6F0088A14E /* accept.png in Resources */ = {isa = PBXBuildFile; fileRef = 634C0BBA1AABDA6F0088A14E /* accept.png */; };
+		634C0BC51AABDA6F0088A14E /* fastForward.png in Resources */ = {isa = PBXBuildFile; fileRef = 634C0BBB1AABDA6F0088A14E /* fastForward.png */; };
+		634C0BC61AABDA6F0088A14E /* game.png in Resources */ = {isa = PBXBuildFile; fileRef = 634C0BBC1AABDA6F0088A14E /* game.png */; };
+		634C0BC71AABDA6F0088A14E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 634C0BBD1AABDA6F0088A14E /* Info.plist */; };
+		634C0BC81AABDA6F0088A14E /* Info.txt in Resources */ = {isa = PBXBuildFile; fileRef = 634C0BBE1AABDA6F0088A14E /* Info.txt */; };
+		634C0BC91AABDA6F0088A14E /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 634C0BBF1AABDA6F0088A14E /* menu.png */; };
+		634C0BCA1AABDA6F0088A14E /* navArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 634C0BC01AABDA6F0088A14E /* navArrow.png */; };
+		634C0BCB1AABDA6F0088A14E /* overlays128.png in Resources */ = {isa = PBXBuildFile; fileRef = 634C0BC11AABDA6F0088A14E /* overlays128.png */; };
+		634C0BCC1AABDA6F0088A14E /* saturnemu in Resources */ = {isa = PBXBuildFile; fileRef = 634C0BC21AABDA6F0088A14E /* saturnemu */; };
+		634C0BCD1AABDA6F0088A14E /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 634C0BC31AABDA6F0088A14E /* x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		634717F219041D10003F930F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 634717CA19041D10003F930F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 634717D119041D10003F930F;
+			remoteInfo = SaturnEmu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		634717D219041D10003F930F /* SaturnEmu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaturnEmu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		634717ED19041D10003F930F /* SaturnEmuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaturnEmuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		634C0BB81AABD9CD0088A14E /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shaders; sourceTree = "<group>"; };
+		634C0BBA1AABDA6F0088A14E /* accept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accept.png; sourceTree = "<group>"; };
+		634C0BBB1AABDA6F0088A14E /* fastForward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fastForward.png; sourceTree = "<group>"; };
+		634C0BBC1AABDA6F0088A14E /* game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game.png; sourceTree = "<group>"; };
+		634C0BBD1AABDA6F0088A14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Info.plist; sourceTree = "<group>"; };
+		634C0BBE1AABDA6F0088A14E /* Info.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Info.txt; sourceTree = "<group>"; };
+		634C0BBF1AABDA6F0088A14E /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		634C0BC01AABDA6F0088A14E /* navArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navArrow.png; sourceTree = "<group>"; };
+		634C0BC11AABDA6F0088A14E /* overlays128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlays128.png; sourceTree = "<group>"; };
+		634C0BC21AABDA6F0088A14E /* saturnemu */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = saturnemu; sourceTree = "<group>"; };
+		634C0BC31AABDA6F0088A14E /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		634717CF19041D10003F930F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634717EA19041D10003F930F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		634717C919041D10003F930F = {
+			isa = PBXGroup;
+			children = (
+				634717DB19041D10003F930F /* SaturnEmu */,
+				634717D319041D10003F930F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		634717D319041D10003F930F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				634717D219041D10003F930F /* SaturnEmu.app */,
+				634717ED19041D10003F930F /* SaturnEmuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		634717DB19041D10003F930F /* SaturnEmu */ = {
+			isa = PBXGroup;
+			children = (
+				634C0BBA1AABDA6F0088A14E /* accept.png */,
+				634C0BBB1AABDA6F0088A14E /* fastForward.png */,
+				634C0BBC1AABDA6F0088A14E /* game.png */,
+				634C0BBD1AABDA6F0088A14E /* Info.plist */,
+				634C0BBE1AABDA6F0088A14E /* Info.txt */,
+				634C0BBF1AABDA6F0088A14E /* menu.png */,
+				634C0BC01AABDA6F0088A14E /* navArrow.png */,
+				634C0BC11AABDA6F0088A14E /* overlays128.png */,
+				634C0BC21AABDA6F0088A14E /* saturnemu */,
+				634C0BC31AABDA6F0088A14E /* x.png */,
+				634C0BB81AABD9CD0088A14E /* shaders */,
+			);
+			path = SaturnEmu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		634717D119041D10003F930F /* SaturnEmu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634717FE19041D10003F930F /* Build configuration list for PBXNativeTarget "SaturnEmu" */;
+			buildPhases = (
+				634717CE19041D10003F930F /* Sources */,
+				634717CF19041D10003F930F /* Frameworks */,
+				634717D019041D10003F930F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaturnEmu;
+			productName = SaturnEmu;
+			productReference = 634717D219041D10003F930F /* SaturnEmu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		634717EC19041D10003F930F /* SaturnEmuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6347180119041D10003F930F /* Build configuration list for PBXNativeTarget "SaturnEmuTests" */;
+			buildPhases = (
+				634717E919041D10003F930F /* Sources */,
+				634717EA19041D10003F930F /* Frameworks */,
+				634717EB19041D10003F930F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				634717F319041D10003F930F /* PBXTargetDependency */,
+			);
+			name = SaturnEmuTests;
+			productName = SaturnEmuTests;
+			productReference = 634717ED19041D10003F930F /* SaturnEmuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		634717CA19041D10003F930F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.explusalpha.SaturnEmu;
+				TargetAttributes = {
+					634717EC19041D10003F930F = {
+						TestTargetID = 634717D119041D10003F930F;
+					};
+				};
+			};
+			buildConfigurationList = 634717CD19041D10003F930F /* Build configuration list for PBXProject "SaturnEmu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 634717C919041D10003F930F;
+			productRefGroup = 634717D319041D10003F930F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				634717D119041D10003F930F /* SaturnEmu */,
+				634717EC19041D10003F930F /* SaturnEmuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		634717D019041D10003F930F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634C0BCD1AABDA6F0088A14E /* x.png in Resources */,
+				634C0BB91AABD9CD0088A14E /* shaders in Resources */,
+				634C0BCB1AABDA6F0088A14E /* overlays128.png in Resources */,
+				634C0BC61AABDA6F0088A14E /* game.png in Resources */,
+				634C0BC81AABDA6F0088A14E /* Info.txt in Resources */,
+				634C0BC41AABDA6F0088A14E /* accept.png in Resources */,
+				634C0BC91AABDA6F0088A14E /* menu.png in Resources */,
+				634C0BC71AABDA6F0088A14E /* Info.plist in Resources */,
+				634C0BCC1AABDA6F0088A14E /* saturnemu in Resources */,
+				634C0BC51AABDA6F0088A14E /* fastForward.png in Resources */,
+				634C0BCA1AABDA6F0088A14E /* navArrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634717EB19041D10003F930F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		634717CE19041D10003F930F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634717E919041D10003F930F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		634717F319041D10003F930F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 634717D119041D10003F930F /* SaturnEmu */;
+			targetProxy = 634717F219041D10003F930F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		634717FC19041D10003F930F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		634717FD19041D10003F930F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		634717FF19041D10003F930F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaturnEmu/SaturnEmu-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SaturnEmu/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6347180019041D10003F930F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaturnEmu/SaturnEmu-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/SaturnEmu/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6347180219041D10003F930F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SaturnEmu.app/SaturnEmu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaturnEmu/SaturnEmu-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SaturnEmuTests/SaturnEmuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6347180319041D10003F930F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SaturnEmu.app/SaturnEmu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaturnEmu/SaturnEmu-Prefix.pch";
+				INFOPLIST_FILE = "SaturnEmuTests/SaturnEmuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		634717CD19041D10003F930F /* Build configuration list for PBXProject "SaturnEmu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634717FC19041D10003F930F /* Debug */,
+				634717FD19041D10003F930F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634717FE19041D10003F930F /* Build configuration list for PBXNativeTarget "SaturnEmu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634717FF19041D10003F930F /* Debug */,
+				6347180019041D10003F930F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6347180119041D10003F930F /* Build configuration list for PBXNativeTarget "SaturnEmuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6347180219041D10003F930F /* Debug */,
+				6347180319041D10003F930F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 634717CA19041D10003F930F /* Project object */;
+}

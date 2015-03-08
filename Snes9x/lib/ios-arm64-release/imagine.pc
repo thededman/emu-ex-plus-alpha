@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../..
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: imagine
+Description: Game/Multimedia Engine
+Version: 1.5.26
+Requires:  minizip
+Libs: -L${libdir} -limagine -framework AudioToolbox -framework CoreAudio -weak_framework GameController -framework UIKit -framework QuartzCore -framework Foundation -framework CoreFoundation -framework CoreGraphics -fobjc-link-runtime -framework OpenGLES -framework GLKit -lz -lBTstack
+Cflags:  -I${includedir}/imagine/override -I${includedir}
