@@ -7,18 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		632EE203191EF72200D0F49B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632EE202191EF72200D0F49B /* Foundation.framework */; };
-		632EE205191EF72200D0F49B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632EE204191EF72200D0F49B /* CoreGraphics.framework */; };
-		632EE207191EF72200D0F49B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632EE206191EF72200D0F49B /* UIKit.framework */; };
-		632EE21C191EF72200D0F49B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632EE21B191EF72200D0F49B /* XCTest.framework */; };
-		632EE21D191EF72200D0F49B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632EE202191EF72200D0F49B /* Foundation.framework */; };
-		632EE21E191EF72200D0F49B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632EE206191EF72200D0F49B /* UIKit.framework */; };
 		632EE240191EF89500D0F49B /* accept.png in Resources */ = {isa = PBXBuildFile; fileRef = 632EE231191EF89500D0F49B /* accept.png */; };
 		632EE241191EF89500D0F49B /* fastForward.png in Resources */ = {isa = PBXBuildFile; fileRef = 632EE232191EF89500D0F49B /* fastForward.png */; };
 		632EE242191EF89500D0F49B /* game.png in Resources */ = {isa = PBXBuildFile; fileRef = 632EE233191EF89500D0F49B /* game.png */; };
 		632EE243191EF89500D0F49B /* gngeo_data.zip in Resources */ = {isa = PBXBuildFile; fileRef = 632EE234191EF89500D0F49B /* gngeo_data.zip */; };
-		632EE244191EF89500D0F49B /* hq2x-f.txt in Resources */ = {isa = PBXBuildFile; fileRef = 632EE235191EF89500D0F49B /* hq2x-f.txt */; };
-		632EE245191EF89500D0F49B /* hq2x-v.txt in Resources */ = {isa = PBXBuildFile; fileRef = 632EE236191EF89500D0F49B /* hq2x-v.txt */; };
 		632EE246191EF89500D0F49B /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 632EE237191EF89500D0F49B /* icon-57.png */; };
 		632EE247191EF89500D0F49B /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 632EE238191EF89500D0F49B /* icon-72.png */; };
 		632EE248191EF89500D0F49B /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 632EE239191EF89500D0F49B /* icon-114.png */; };
@@ -28,6 +20,8 @@
 		632EE24C191EF89500D0F49B /* navArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 632EE23D191EF89500D0F49B /* navArrow.png */; };
 		632EE24D191EF89500D0F49B /* neoemu in Resources */ = {isa = PBXBuildFile; fileRef = 632EE23E191EF89500D0F49B /* neoemu */; };
 		632EE24E191EF89500D0F49B /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 632EE23F191EF89500D0F49B /* x.png */; };
+		635E14161AAD2FE500125AC5 /* overlays64.png in Resources */ = {isa = PBXBuildFile; fileRef = 635E14141AAD2FE500125AC5 /* overlays64.png */; };
+		635E14171AAD2FE500125AC5 /* overlays128.png in Resources */ = {isa = PBXBuildFile; fileRef = 635E14151AAD2FE500125AC5 /* overlays128.png */; };
 		63FB75C81AABD5BC0047FF37 /* shaders in Resources */ = {isa = PBXBuildFile; fileRef = 63FB75C71AABD5BC0047FF37 /* shaders */; };
 /* End PBXBuildFile section */
 
@@ -43,17 +37,11 @@
 
 /* Begin PBXFileReference section */
 		632EE1FF191EF72200D0F49B /* NEO.EMU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEO.EMU.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		632EE202191EF72200D0F49B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		632EE204191EF72200D0F49B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		632EE206191EF72200D0F49B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		632EE21A191EF72200D0F49B /* NEO.EMUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NEO.EMUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		632EE21B191EF72200D0F49B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		632EE231191EF89500D0F49B /* accept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accept.png; sourceTree = "<group>"; };
 		632EE232191EF89500D0F49B /* fastForward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fastForward.png; sourceTree = "<group>"; };
 		632EE233191EF89500D0F49B /* game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game.png; sourceTree = "<group>"; };
 		632EE234191EF89500D0F49B /* gngeo_data.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = gngeo_data.zip; sourceTree = "<group>"; };
-		632EE235191EF89500D0F49B /* hq2x-f.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "hq2x-f.txt"; sourceTree = "<group>"; };
-		632EE236191EF89500D0F49B /* hq2x-v.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "hq2x-v.txt"; sourceTree = "<group>"; };
 		632EE237191EF89500D0F49B /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = "<group>"; };
 		632EE238191EF89500D0F49B /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
 		632EE239191EF89500D0F49B /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114.png"; sourceTree = "<group>"; };
@@ -63,6 +51,8 @@
 		632EE23D191EF89500D0F49B /* navArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navArrow.png; sourceTree = "<group>"; };
 		632EE23E191EF89500D0F49B /* neoemu */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = neoemu; sourceTree = "<group>"; };
 		632EE23F191EF89500D0F49B /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		635E14141AAD2FE500125AC5 /* overlays64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlays64.png; sourceTree = "<group>"; };
+		635E14151AAD2FE500125AC5 /* overlays128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlays128.png; sourceTree = "<group>"; };
 		63FB75C71AABD5BC0047FF37 /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shaders; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,9 +61,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				632EE205191EF72200D0F49B /* CoreGraphics.framework in Frameworks */,
-				632EE207191EF72200D0F49B /* UIKit.framework in Frameworks */,
-				632EE203191EF72200D0F49B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,9 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				632EE21C191EF72200D0F49B /* XCTest.framework in Frameworks */,
-				632EE21E191EF72200D0F49B /* UIKit.framework in Frameworks */,
-				632EE21D191EF72200D0F49B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				632EE208191EF72200D0F49B /* NEO.EMU */,
-				632EE201191EF72200D0F49B /* Frameworks */,
 				632EE200191EF72200D0F49B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,27 +91,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		632EE201191EF72200D0F49B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				632EE202191EF72200D0F49B /* Foundation.framework */,
-				632EE204191EF72200D0F49B /* CoreGraphics.framework */,
-				632EE206191EF72200D0F49B /* UIKit.framework */,
-				632EE21B191EF72200D0F49B /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		632EE208191EF72200D0F49B /* NEO.EMU */ = {
 			isa = PBXGroup;
 			children = (
+				635E14141AAD2FE500125AC5 /* overlays64.png */,
+				635E14151AAD2FE500125AC5 /* overlays128.png */,
 				63FB75C71AABD5BC0047FF37 /* shaders */,
 				632EE231191EF89500D0F49B /* accept.png */,
 				632EE232191EF89500D0F49B /* fastForward.png */,
 				632EE233191EF89500D0F49B /* game.png */,
 				632EE234191EF89500D0F49B /* gngeo_data.zip */,
-				632EE235191EF89500D0F49B /* hq2x-f.txt */,
-				632EE236191EF89500D0F49B /* hq2x-v.txt */,
 				632EE237191EF89500D0F49B /* icon-57.png */,
 				632EE238191EF89500D0F49B /* icon-72.png */,
 				632EE239191EF89500D0F49B /* icon-114.png */,
@@ -222,20 +194,20 @@
 			files = (
 				632EE24A191EF89500D0F49B /* Info.txt in Resources */,
 				63FB75C81AABD5BC0047FF37 /* shaders in Resources */,
+				635E14171AAD2FE500125AC5 /* overlays128.png in Resources */,
 				632EE24D191EF89500D0F49B /* neoemu in Resources */,
 				632EE246191EF89500D0F49B /* icon-57.png in Resources */,
-				632EE245191EF89500D0F49B /* hq2x-v.txt in Resources */,
 				632EE248191EF89500D0F49B /* icon-114.png in Resources */,
 				632EE243191EF89500D0F49B /* gngeo_data.zip in Resources */,
 				632EE240191EF89500D0F49B /* accept.png in Resources */,
 				632EE241191EF89500D0F49B /* fastForward.png in Resources */,
 				632EE247191EF89500D0F49B /* icon-72.png in Resources */,
 				632EE24C191EF89500D0F49B /* navArrow.png in Resources */,
+				635E14161AAD2FE500125AC5 /* overlays64.png in Resources */,
 				632EE24B191EF89500D0F49B /* menu.png in Resources */,
 				632EE242191EF89500D0F49B /* game.png in Resources */,
 				632EE24E191EF89500D0F49B /* x.png in Resources */,
 				632EE249191EF89500D0F49B /* Info.plist in Resources */,
-				632EE244191EF89500D0F49B /* hq2x-f.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
