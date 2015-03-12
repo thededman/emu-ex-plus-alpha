@@ -83,7 +83,3 @@ linking target/ios-release/bin/s9xp-arm64
 Linking target/ios-release/bin/s9xp-armv7
 Signing target/ios-release/bin/s9xp-arm64
 make[1]: ldid: Permission denied
-
-6. Building EMU
------------------------------
-Coming soon...
