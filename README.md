@@ -129,4 +129,4 @@ If you this then need to build older version. The later release is not working. 
 These instruction are based off of Version 1.5.29 
 https://github.com/Rakashazi/emu-ex-plus-alpha/tree/8d12806fb939bf57035964c3322f6c714578649c
 
-Hope this helps you! 
+Hope this helps you!   **Damnit My screenshots are missing. I will uplaod then link them in the Wiki Page.
