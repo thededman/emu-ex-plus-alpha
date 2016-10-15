@@ -5,25 +5,25 @@ These are the instructions for the Mac OS X 10.9 and later for iOS Devices
 
 1. Tools and Environment Setup
 -----------------------------
-You need the following basic tools to start building Imagine. For platform-specific info, see the INSTALL-* file for that port.
-MacOS X: Xcode 6.1 or newer, MacPorts versions of coreutils, libtool, pkgconfig and gnutar (http://www.macports.org)
-The following make variables are used by the build system:
-IMAGINE_PATH : Required, no default
- - The path to the root Imagine directory containing the "make/" subdirectory
-IMAGINE_SDK_PATH : Optional, defaults to $(HOME)/imagine-sdk
- - When building Imagine itself, the default install path of the Imagine SDK headers & libs
- - Also used when building an Imagine-based app as the default Imagine SDK path
-	a. Adding the path for Mac OS -
+You need the following basic tools to start building Imagine.MacOS X: Xcode 7 or newer, MacPorts (http://www.macports.org)
+
+
+Install Xcode on OS X 10.9 or Later
+Download the latest version of Xcode from the Apple developer website or get it using the Mac App Store.
+Once you have Xcode installed, open a terminal, run xcode-select --install, and click the Install button to install the required command line developer tools. Don't worry if you see a message telling you the software cannot be installed because it is not currently available from the Software Update Server. This usually means you already have the latest version installed. You can also get the command line tools from the Apple developer website.
+
+Install MacPort per the instruction from MacPorts I will not cover here. Open Terminal, and sudo port selfupdate let this complete.
+Now type sudo port install coreutils libtool pkgconfig gnutar autoconf  this will take a few minutes. This is need to complete the compile.
+
+	The following make variables are used by the build system:
+	IMAGINE_PATH : Required, no default
+
 	Step 1: Open up a Terminal window (this is in your Applications/Utilities folder by default)
-
-Step 2: Enter the follow commands:
-touch ~/. profile; open ~/. profile
-
-This will open the . profile file in Text Edit (the default text editor included on your system). The file allows you to customize the environment your user runs in. This profile was created when you install MacPorts.
-
-Step 3: Add the following line to the end of the file adding whatever additional directory you want in your path:
-export  IMAGINE_PATH=/users/YOURNAME/Desktop/emu-ex-plus-alpha/imagine
-‘I used my desktop when building for ease of access you change your path location to the where the project is saved.’
+	Step 2: Enter the follow commands: touch ~/. profile; open ~/. Profile
+	Step 3: Add the following line to the end of the file adding whatever additional directory you want in your path:
+	export  IMAGINE_PATH=/users/YOURNAME/Desktop/emu-ex-plus-alpha/imagine
+	‘I used my desktop when building for ease of access you change your path location to the where the project is saved.’
+	
 
 Step 4: Close and save the .profile
 
@@ -31,11 +31,11 @@ Step 5:  Close terminal and reopen.
 
 2. Dependencies
 -----------------------------
-For ports that need linking to additional static libraries (currently all except a stock Linux build), change to the "imagine/bundle/all" directory and run the specific bash script for the port to build the needed packages. All arguments passed to this script are passed to make directly. Extracted source & build output goes into "/tmp/imagine-bundle/$(pkgName)" but you can override the "tempDir" variable to change this. The "install" target installs the resulting files under "$(IMAGINE_SDK_PATH)" and is overridden via the "installDir" variable. Note that some packages need the GNU version of the tar utility for proper extraction.
-For example, to build and install the packages needed for the iOS port, and override the name of the tar utility, use:
-bash makeAll-ios.sh install TAR=gnutar 
-
-*May have to execute this a few times to get a proper build with our errors. This may not be the case with in a native Mac OS. I have this issue with this version of Mac OS X as it’s virtual. 
+For ports that need linking to additional static libraries (currently all except a stock Linux build), change to the "imagine/bundle/all" directory and run the specific bash script for the port to build the needed packages. 
+bash makeAll-ios.sh install TAR=gnutar
+ 
+*May have to execute this a few times to get a proper build with our errors. This may not be the case with in a native Mac OS. 
+I have has issue with this version of Mac OS X as it’s virtual. 
 
 You see this error, don’t worry run the command again.
 -----------------------------
@@ -49,33 +49,34 @@ make[1]: *** [write_read_test.c] Error 1
 -----------------------------
 3. Building Imagine Framework
 -----------------------------
-Use one of the makefiles in the root Imagine directory to build that specific port. Build output goes into the "build" and "lib" subdirectories of the working directory. Pass "V=1" as an override for verbose build output. For example, to build and install the debug version of the iOS ARM7/ARM64 port with verbose output and 4 compile jobs, use:
-
+Still in terminal in the same folder you were in for compiling IMAGINE ENGINE run this:
 make -f $IMAGINE_PATH/ios-release.mk install V=1 -j4
 
 I run this twice to be sure of proper install, you will see this in the terminal if successful.
 
 Installing lib & headers to /Users/YOURNAME/imagine-sdk/ios-arm64
-Installing lib & headers to /Users/YOURNAME/imagine-sdk/ios-armv7
-
-**To use the resulting Imagine SDK with pkg-config, add that port's "lib/pkgconfig" path to the "PKG_CONFIG_PATH" environment variable. Note apps directly using Imagine's build system do this automatically by checking the "IMAGINE_SDK_PATH" environment variable.
+Installing lib & headers to /Users/YOURNAME/imagine-sdk/ios-armv7 *Don't care if this one fails. This for old iPads and iPhone 4.
 
 4. Building EmuFramework
 -----------------------------
-Use one of the makefiles in the root Emuframework directory to build that specific port. Build output goes into the "build" and "lib" subdirectories of the working directory. Pass "V=1" as an override for verbose build output. For example, to build and install the debug version of the iOS ARM7/ARM64 port with verbose output and 4 compile jobs, use:
+In terminal change directory to emu-ex-plus-alpha\EmuFramework
 
-make -f ios-release.mk install V=1 -j4
+make -f ios-release.mk V=1 -j4 *run this a few time to ensure no errors. *Again I need to running from a Virtual Mac OS X.  May not happen on real mac.
 
 This build the emuframework and install in the IMAGINE-SDK folder.
 
-5. Building EMU
+5. Building the Emulators
 -----------------------------
-Use one of the makefiles in the root EMULATOR directory to build that specific port. Build output goes into the "build" and "lib" subdirectories of the working directory. Pass "V=1" as an override for verbose build output. For example, to build and install the debug version of the iOS ARM7/ARM64 port with verbose output and 4 compile jobs, use:
+Change to the directory of the emulator you want to build. For this example- I will NES.EMU
+In this directory type:
 
 make -f ios-release.mk V=1 -j4
 
 This will build the executable for the emulator in save the output to target/ios-release/bin folder.
 Well cover the execute file you need in the next section.
+
+
+
 *If you see this error don’t worry this is normal. This a signing tool for JB users. 
 See http://www.saurik.com/id/8 for more information.
 
@@ -84,7 +85,48 @@ Linking target/ios-release/bin/s9xp-armv7
 Signing target/ios-release/bin/s9xp-arm64
 make[1]: ldid: Permission denied
 
-6. Xcode Time
+6. Building for use with iOS Devices
 -----------------------------
-IN PROCESS OF UPDATOING NOTES AND NEW SCREEN SHOTS. 
-ALSO Uploading New Empty Excode Frame for Emuators.
+We have our executable file now, but now what? We need to add to an empty Xcode Project. For time savings, I have uploaded skeleton projects for this project.
+Find the Emulator Xcode project that you want build for your device. *Free Development Account will work!.
+
+
+
+Continuing with NES.EMU lets open that skeleton folder.
+
+Open the NES.EMU folder. This the framework for the NES.EMU
+
+
+
+
+This is where we will copy the INFO.plist and INFO.txt and the NESEMU-ARM64 from the target/ios-release.
+Get in to the bin folder. Notice the file name of the emulator EMULATORNAME-ARM64. This will not do.
+Click on the executable, and press ENTER. Rename EMUMATORNAME only. Copy the execute to skeleton project.
+
+
+
+Let's go back on level in the skeleton framework and open the Xcode Project.
+
+
+Inside Xcode need to change the bundle identifier so something else
+Select Fix or choose your Team profile for building. 
+
+
+
+Plug in the iphone or iPad and select your device from the list and push the PLAY button.
+
+
+
+In a few moments the emulator you have compiled will launch. To ensure a proper compiled version tab LOAD GAME:
+
+
+If you see DATA/Application/UNIQUE IDENTIFIER/Documents then we can sideload ROMS.
+
+If you this then need to build older version. The later release is not working. Just yet.
+
+
+
+These instruction are based off of Version 1.5.29 
+https://github.com/Rakashazi/emu-ex-plus-alpha/tree/8d12806fb939bf57035964c3322f6c714578649c
+
+Hope this helps you! 
