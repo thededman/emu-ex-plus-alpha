@@ -1,3 +1,5 @@
+**==DO NOT USE this git as the code is old! I'm providing the Xcode Empty project only.==**
+
 **1. Tools and Environment Setup**
 ---
 You need the following basic tools to start building Imagine.MacOS X: Xcode 9 or newer, MacPorts (http://www.macports.org)
